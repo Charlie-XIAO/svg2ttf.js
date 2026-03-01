@@ -1,6 +1,6 @@
 {
   "name": "@charlie-xiao/svg2ttf",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fix strokes in SVGs and convert them to TTF.",
   "type": "module",
   "keywords": [
