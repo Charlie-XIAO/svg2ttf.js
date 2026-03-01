@@ -1,0 +1,32 @@
+{
+  "name": "@charlie-xiao/svg2ttf",
+  "version": "0.1.0",
+  "description": "Fix strokes in SVGs and convert them to TTF.",
+  "type": "module",
+  "keywords": [
+    "svg",
+    "ttf",
+    "font"
+  ],
+  "author": "Yao Xiao <yx2436@nyu.edu>",
+  "license": "MIT",
+  "repository": "https://github.com/Charlie-XIAO/svg2ttf.js",
+  "bin": {
+    "svg2ttf": "bin/svg2ttf.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "oslllo-svg-fixer": "^6.0.1",
+    "svgtofont": "^6.5.1",
+    "tmp": "^0.2.5"
+  }
+}
