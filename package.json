@@ -27,6 +27,6 @@
     "commander": "^14.0.3",
     "oslllo-svg-fixer": "^6.0.1",
     "svgtofont": "^6.5.1",
-    "tmp": "^0.2.5"
+    "tmp": "^0.2.7"
   }
 }

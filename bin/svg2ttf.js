@@ -17,8 +17,8 @@ program
   .requiredOption("-i, --input <dir>", "input SVGs directory")
   .requiredOption("-o, --output <dir>", "output fonts directory")
   .requiredOption("-n, --font-name <name>", "font name")
-  .option("--font-height <n>", "font height", parseNumber, 1000)
-  .option("--descent <n>", "font descent below baseline", parseNumber, 200)
+  .option("--font-height <n>", "font height", Number, 1000)
+  .option("--descent <n>", "font descent below baseline", Number, 200)
   .option("--fixed-width", "make all glyphs same width", false)
   .option(
     "--trace-resolution [n]",
@@ -60,7 +60,7 @@ async function main() {
     fontName: opts.fontName,
     css: false,
     svgicons2svgfont: {
-      fontHeight: opt.fontHeight,
+      fontHeight: opts.fontHeight,
       descent: opts.descent,
       fixedWidth: opts.fixedWidth,
       normalize: false,
